@@ -1,0 +1,29 @@
+F:\HLML PROJECTS\DHL>npm start
+
+> DHL@1.0.0 start F:\HLML PROJECTS\DHL
+> gulp start
+
+AssertionError [ERR_ASSERTION]: Task never defined: undefined
+    at getFunction (F:\HLML PROJECTS\DHL\node_modules\undertaker\lib\helpers\normalizeArgs.js:15:5)
+    at map (F:\HLML PROJECTS\DHL\node_modules\arr-map\index.js:20:14)
+    at normalizeArgs (F:\HLML PROJECTS\DHL\node_modules\undertaker\lib\helpers\normalizeArgs.js:22:10)
+    at Gulp.series (F:\HLML PROJECTS\DHL\node_modules\undertaker\lib\series.js:13:14)
+    at Object.<anonymous> (F:\HLML PROJECTS\DHL\gulpfile.js:3:29)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '=='
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! DHL@1.0.0 start: `gulp start`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the DHL@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
